@@ -153,9 +153,15 @@ span{
 .item{
   transition: transform 1s;
 }
+.item img{
+  width:100%;
+  transition: all 1s ease;
+  display: block;
+  overflow: hidden;
+}
 .item:hover img{
   transform: scale(1.1);
-  overflow: hidden;
+  
 }
 /* work */
 .work{
@@ -184,7 +190,7 @@ span{
  }
  input:focus{
   border: #0078ff 1px solid;
-  outline: #0078ff 5px solid;
+  outline: #0078ff 3px solid;
  }
  .icon{
   background-color: white;
@@ -202,6 +208,10 @@ span{
   i{
     color: white;
   }
+ }
+ textarea:focus{
+  border: #0078ff 1px solid;
+  outline: #0078ff 3px solid;
  }
 /* footer */
 .container-fluid{
