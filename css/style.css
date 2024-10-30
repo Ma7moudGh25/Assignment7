@@ -1,0 +1,209 @@
+body{
+  background-color: #f5f5f5;
+}
+/* home */
+nav{
+  background-color:rgba(0, 0, 0, .9);
+}
+.header{
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.overlay1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.704);
+  z-index: 1;
+}
+.container{
+  position: relative;
+  z-index: 999;
+}
+
+#home h1::after{
+  content: "";
+  animation: typing 12s linear infinite;
+}
+
+
+@keyframes typing {
+  0% {content: "";}
+  0.8333333333333334% {content: "F";}
+  1.6666666666666667% {content: "Fr";}
+  2.5% {content: "Fre";}
+  3.3333333333333335% {content: "Free";}
+  4.166666666666667% {content: "Freel";}
+  5% {content: "Freela";}
+  5.833333333333334% {content: "Freelan";}
+  6.666666666666667% {content: "Freelanc";}
+  7.5% {content: "Freelance";}
+  8.333333333333334% {content: "Freelancer";}
+  24.166666666666668% {content: "Freelancer";}
+  25% {content: "Freelance";}
+  25.833333333333336% {content: "Freelanc";}
+  26.666666666666668% {content: "Freelan";}
+  27.5% {content: "Freela";}
+  28.333333333333336% {content: "Freel";}
+  29.166666666666668% {content: "Free";}
+  30.000000000000004% {content: "Fre";}
+  30.833333333333336% {content: "Fr";}
+  31.666666666666668% {content: "F";}
+  33.333333333333336% {content: "";}
+  34.02777777777778% {content: "P";}
+  34.72222222222222% {content: "Ph";}
+  35.41666666666667% {content: "Pho";}
+  36.111111111111114% {content: "Phot";}
+  36.80555555555556% {content: "Photo";}
+  37.5% {content: "Photog";}
+  38.19444444444445% {content: "Photogr";}
+  38.88888888888889% {content: "Photogra";}
+  39.583333333333336% {content: "Photograp";}
+  40.27777777777778% {content: "Photograph";}
+  40.97222222222223% {content: "Photographe";}
+  41.66666666666667% {content: "Photographer";}
+  57.63888888888889% {content: "Photographer";}
+  58.333333333333336% {content: "Photographe";}
+  59.02777777777778% {content: "Photograph";}
+  59.72222222222223% {content: "Photograp";}
+  60.41666666666667% {content: "Photogra";}
+  61.111111111111114% {content: "Photogr";}
+  61.80555555555556% {content: "Photog";}
+  62.50000000000001% {content: "Photo";}
+  63.19444444444445% {content: "Phot";}
+  63.88888888888889% {content: "Pho";}
+  64.58333333333334% {content: "Ph";}
+  65.27777777777779% {content: "P";}
+  66.66666666666667% {content: "";}
+  67.70833333333334% {content: "D";}
+  68.75% {content: "De";}
+  69.79166666666667% {content: "Des";}
+  70.83333333333334% {content: "Desi";}
+  71.875% {content: "Desig";}
+  72.91666666666667% {content: "Design";}
+  73.95833333333334% {content: "Designe";}
+  75% {content: "Designer";}
+  90.625% {content: "Designer";}
+  91.66666666666667% {content: "Designe";}
+  92.70833333333333% {content: "Design";}
+  93.75% {content: "Desig";}
+  94.79166666666667% {content: "Desi";}
+  95.83333333333333% {content: "Des";}
+  96.875% {content: "De";}
+  97.91666666666667% {content: "D";}
+  100% {content: "";}
+}
+/* about */
+.line1{
+  width: 90px;
+  height: 2px;
+  background-color: #0078ff;
+}
+/* services */
+.line{
+  width: 50px;
+  height: 2px;
+  background-color: #0078ff;
+}
+.out-line{
+  border:#0078ff solid 5px;
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kard:hover .out-line{
+
+  background-color: #0078ff;
+}
+/* stats */
+.stats{
+  background-image: url(../images/counters-bg.jpg);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 119, 255, 0.704);
+  z-index: 1;
+  
+}
+
+/* portfolio */
+span{
+  color: rgb(0, 119, 255);
+}
+.item{
+  transition: transform 1s;
+}
+.item:hover img{
+  transform: scale(1.1);
+  overflow: hidden;
+}
+/* work */
+.work{
+  background-image: url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  background-attachment: fixed;
+}
+/* blog */
+.card-footer img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+/* contact */
+ #contact{
+  background-image: url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  background-attachment: fixed;
+ }
+ .btn{
+  background-color: #0078ff !important;
+ }
+ input:focus{
+  border: #0078ff 1px solid;
+  outline: #0078ff 5px solid;
+ }
+ .icon{
+  background-color: white;
+  width: 37px;
+  height: 37px;
+  border: #0062d3 solid 2px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .icon:hover{
+  background-color: #0062d3;
+  border: #f5f5f5;
+  i{
+    color: white;
+  }
+ }
+/* footer */
+.container-fluid{
+  background-color: #0062d3 !important;
+}
